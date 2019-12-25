@@ -1,8 +1,0 @@
-{
-    "message": "Welcome to Mongo REST",
-    "endpoints": {
-        "/insert": {
-            "description": "Insert into the data into the database"
-        }
-    }
-}

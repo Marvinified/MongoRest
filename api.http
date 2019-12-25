@@ -1,8 +1,17 @@
 ###
-POST http://127.0.0.1:5000/ HTTP/1.1
+POST http://127.0.0.1:4000/insert HTTP/1.1
 Content-Type: application/json
 
 {
-    "message": "Yes"
+    "name": "Tun Il",
+    "role": "Admin"
+}
+
+###
+POST http://127.0.0.1:4000/query HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "5e03dafe4540ca85c5415c1d"
 }
 
